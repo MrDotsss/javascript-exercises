@@ -8,7 +8,7 @@ const fibonacci = function(countArg) {
         count = countArg
     }
 
-    if (count < 0) return "OOPS";
+    if (count < 0) return "Must be greater than 0";
     if (count == 0) return 0;
 
     let firstPrev = 1;
